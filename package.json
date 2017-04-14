@@ -1,0 +1,55 @@
+{
+  "name": "avg-cli",
+  "version": "0.0.1",
+  "description": "CLI tools for AVG.js",
+  "main": "src/index.js",
+  "bin": {
+    "avg": "dist/index.js"
+  },
+  "scripts": {
+    "dev": "gulp watch",
+    "prepublish": "gulp default",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avgjs/cli.git"
+  },
+  "keywords": [
+    "AVG.js",
+    "AVG",
+    "cli",
+    "webgame"
+  ],
+  "author": "Icemic Jia <bingfeng.web@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/avgjs/cli/issues"
+  },
+  "homepage": "https://github.com/avgjs/cli#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "cwebp-bin": "^3.2.0",
+    "execa": "^0.6.3",
+    "ffmpeg-static": "^2.0.0",
+    "fluent-ffmpeg": "^2.1.0",
+    "fs-extra": "^2.1.2",
+    "inquirer": "^3.0.6",
+    "klaw": "^1.3.1",
+    "node-fetch": "^1.6.3",
+    "ora": "^1.2.0",
+    "tar.gz2": "^1.0.0",
+    "through2": "^2.0.3",
+    "validate-npm-package-name": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "0.0.8",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-wrap": "^0.13.0"
+  }
+}
